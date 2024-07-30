@@ -1,7 +1,7 @@
 def send_email(message, recipient, sender="university.help@gmail.com"):
     my_list = [sender, recipient]
-# пожалуйста, исправьте задание
 
+# пожалуйста, исправьте задание
     for i in my_list:
         if '@' not in i:
             print('Невозможно отправить письмо с адреса', sender, 'на адрес', recipient)
